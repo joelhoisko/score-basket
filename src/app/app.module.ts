@@ -1,32 +1,42 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { MyApp } from './app.component';
-import { AboutPage } from '../pages/about/about';
-import { ContactPage } from '../pages/contact/contact';
+
+import { ScoreBasketApp } from './app.component';
+import { CoursesPage } from '../pages/courses/courses';
+import { PlayersPage } from '../pages/players/players';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {CourseListItemPage} from "../pages/course-list-item/course-list-item";
+import {PlayerListItemPage} from "../pages/player-list-item/player-list-item";
+import {ProfilePage} from "../pages/profile/profile";
 
 @NgModule({
   declarations: [
-    MyApp,
-    AboutPage,
-    ContactPage,
+    ScoreBasketApp,
+    CoursesPage,
+    PlayersPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    CourseListItemPage,
+    PlayerListItemPage,
+    ProfilePage
   ],
   imports: [
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(ScoreBasketApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp,
-    AboutPage,
-    ContactPage,
+    ScoreBasketApp,
+    CoursesPage,
+    PlayersPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    CourseListItemPage,
+    PlayerListItemPage,
+    ProfilePage
   ],
   providers: [
     StatusBar,

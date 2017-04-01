@@ -12,6 +12,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import {CourseCard} from "../components/course-card/course-card";
 import {PlayerCard} from "../components/player-card/player-card";
 import {ProfilePage} from "../pages/profile/profile";
+import {GameCard} from "../components/game-card/game-card";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {ProfilePage} from "../pages/profile/profile";
     TabsPage,
     CourseCard,
     PlayerCard,
-    ProfilePage
+    ProfilePage,
+    GameCard
   ],
   imports: [
     IonicModule.forRoot(ScoreBasketApp)

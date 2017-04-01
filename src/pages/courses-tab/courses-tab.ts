@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-import { CourseCard } from '../../components/course-card/course-card';
-
 /*
   Generated class for the Courses page.
 

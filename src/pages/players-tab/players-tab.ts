@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-import { PlayerCard } from '../../components/player-card/player-card';
-
 /*
   Generated class for the Players page.
 

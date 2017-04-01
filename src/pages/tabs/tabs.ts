@@ -3,7 +3,6 @@ import { Component } from '@angular/core';
 import { CoursesTab } from '../courses-tab/courses-tab';
 import { HomeTab } from '../home-tab/home-tab';
 import { PlayersTab } from '../players-tab/players-tab';
-import {NavController} from "ionic-angular";
 
 @Component({
   templateUrl: 'tabs.html'

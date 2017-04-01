@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-import { CourseListItemPage } from '../course-list-item/course-list-item';
+import { CourseCard } from '../../components/course-card/course-card';
 
 /*
   Generated class for the Courses page.
@@ -11,14 +11,14 @@ import { CourseListItemPage } from '../course-list-item/course-list-item';
 */
 @Component({
   selector: 'page-courses',
-  templateUrl: 'courses.html'
+  templateUrl: 'courses-tab.html'
 })
-export class CoursesPage {
+export class CoursesTab {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CoursesPage');
+    console.log('ionViewDidLoad CoursesTab');
   }
 
 }

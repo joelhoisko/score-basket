@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-import { PlayerListItemPage } from '../player-list-item/player-list-item';
+import { PlayerCard } from '../../components/player-card/player-card';
 
 /*
   Generated class for the Players page.
@@ -11,14 +11,14 @@ import { PlayerListItemPage } from '../player-list-item/player-list-item';
 */
 @Component({
   selector: 'page-players',
-  templateUrl: 'players.html'
+  templateUrl: 'players-tab.html'
 })
-export class PlayersPage {
+export class PlayersTab {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PlayersPage');
+    console.log('ionViewDidLoad PlayersTab');
   }
 
 }

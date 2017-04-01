@@ -8,15 +8,15 @@ import { NavController, NavParams } from 'ionic-angular';
   Ionic pages and navigation.
 */
 @Component({
-  selector: 'course-list-item',
-  templateUrl: 'course-list-item.html'
+  selector: 'course-card',
+  templateUrl: 'course-card.html'
 })
-export class CourseListItemPage {
+export class CourseCard {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CourseListItemPage');
+    console.log('ionViewDidLoad CourseCard');
   }
 
 }

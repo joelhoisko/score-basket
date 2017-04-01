@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-import {ProfilePage} from "../profile/profile";
+import { ProfilePage } from "../../pages/profile/profile";
 
 /*
   Generated class for the PlayerListItem page.
@@ -10,15 +10,15 @@ import {ProfilePage} from "../profile/profile";
   Ionic pages and navigation.
 */
 @Component({
-  selector: 'player-list-item',
-  templateUrl: 'player-list-item.html'
+  selector: 'player-card',
+  templateUrl: 'player-card.html'
 })
-export class PlayerListItemPage {
+export class PlayerCard {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PlayerListItemPage');
+    console.log('ionViewDidLoad PlayerCard');
   }
 
   openProfile() {
